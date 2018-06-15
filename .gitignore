@@ -1,6 +1,6 @@
-
-**/logs/*.txt
-
-*.class
-*.classpath
 /target/
+/test-output/
+/logs/
+*.classpath
+*.settings
+
