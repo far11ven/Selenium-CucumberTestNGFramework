@@ -5,7 +5,7 @@
 	<artifactId>CucumberTestNGFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
-		<sourceDirectory>src/java/res</sourceDirectory>
+		<sourceDirectory>src/java/main</sourceDirectory>
 		<testSourceDirectory>src/java/tests</testSourceDirectory>
 		<testResources>
 			<testResource>
