@@ -50,8 +50,7 @@ public class StepDefinitions {
 
 		log.writeLog("PASS", "WebDriver Closed");
 		log.writeLog("INFO","Scenario " + "[ Name : "+ currentScenario.getName() + " ]"  + " has run with \n [ STATUS = "+  currentScenario.getStatus() + " ]");
-
-		
+	
 
 	}
 
@@ -62,6 +61,8 @@ public class StepDefinitions {
 
 		log.writeLog("INFO", "Website URL launched");
 		gfx.embedScreenshot(driver, currentScenario);
+		
+		driver.findElement(By.xpath("//a[contains(.,'Sign In')]")).click();
 
 	}
 
