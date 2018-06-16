@@ -7,14 +7,6 @@
 	<build>
 		<sourceDirectory>src/java/main</sourceDirectory>
 		<testSourceDirectory>src/java/tests</testSourceDirectory>
-		<testResources>
-			<testResource>
-				<directory>src/java/tests</directory>
-				<excludes>
-					<exclude>**/*.java</exclude>
-				</excludes>
-			</testResource>
-		</testResources>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
