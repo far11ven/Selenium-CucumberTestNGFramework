@@ -62,7 +62,7 @@ public class StepDefinitions {
 		log.writeLog("INFO", "Website URL launched");
 		gfx.embedScreenshot(driver, currentScenario);
 		
-		driver.findElement(By.xpath("//a[contains(.,'Sign In')]")).click();
+		//driver.findElement(By.xpath("//a[contains(.,'Sign In')]")).click();
 
 	}
 
